@@ -1,7 +1,7 @@
 h1{
-    color: grey;/*color name*/
+    color: gray;/*color name*/
+    color: #808080;/*fallback*/
     background-color: #0f0c0c;/*hex code*/
-    background-color: rgb(15, 12, 12);/*fallback*/
 }
 h2,h3,summary.h1{
     color: color-mix(in srgb, black 50%, white 50%);/*color mix*/
