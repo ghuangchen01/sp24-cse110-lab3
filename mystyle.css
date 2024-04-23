@@ -3,7 +3,7 @@ h1{
     color: #808080;/*fallback*/
     background-color: #0f0c0c;/*hex code*/
 }
-h2,h3,summary.h1{
+h2,h3,summary{
     color: color-mix(in srgb, black 50%, white 50%);/*color mix*/
 }
 main {
@@ -14,4 +14,25 @@ body{
 }
 label{
     color: color(display-p3 1 0.5 0);/*widerr-gamut color*/
+}
+#picture {
+    text-align: center;
+    padding: 2cm;
+    border-radius: 8mm;
+    margin: auto;
+    width: 80%;
+}
+#picture .image {
+    width: 20vmin;
+    height: auto;
+}
+#Recording{
+    text-align: center;
+    padding-left: 2in;
+    margin-left: 20px;
+    width: 80vh;
+}
+#Recording .video{
+    width: 50vw;
+    height: auto;
 }
