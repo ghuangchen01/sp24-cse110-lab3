@@ -1,5 +1,5 @@
 ---
-name: Report issue
+name: What to do
 about: Report the problems here
 title: ''
 labels: ''
@@ -7,6 +7,6 @@ assignees: ghuangchen01
 
 ---
 
-**Report**
 Name:
-Issue
+
+Problem descrirption:
