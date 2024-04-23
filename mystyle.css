@@ -1,0 +1,17 @@
+h1{
+    color: gray;/*color name*/
+    color: #808080;/*fallback*/
+    background-color: #0f0c0c;/*hex code*/
+}
+h2,h3,summary.h1{
+    color: color-mix(in srgb, black 50%, white 50%);/*color mix*/
+}
+main {
+    color: hsl(206, 0%, 100%);/*hsl*/
+}
+body{
+    background-color: rgb(24, 26, 28);/*rgb*/
+}
+label{
+    color: color(display-p3 1 0.5 0);/*widerr-gamut color*/
+}
