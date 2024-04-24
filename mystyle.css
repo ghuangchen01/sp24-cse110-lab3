@@ -64,3 +64,12 @@ label{
     border-width: 2px;
     border-radius: 10px;
 }
+#attendance #absent li{
+    text-decoration: line-through;
+}
+.inline{
+    display: block;
+}
+.image:hover{
+    display: none;
+}
