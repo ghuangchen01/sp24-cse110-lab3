@@ -8,6 +8,7 @@ h1{
     margin: -10px;
     border: 2px solid black;
     border-radius: 10px;
+    position: relative;
 }
 h2,h3,summary{
     color: color-mix(in srgb, black 50%, white 50%);/*color mix*/
@@ -47,6 +48,7 @@ label{
     padding: 10px;
     width: 50vw;
     height: auto;
+    position: relative;
 }
 #list{
     width: 100%;
@@ -63,6 +65,7 @@ label{
     border-color: white;
     border-width: 2px;
     border-radius: 10px;
+    position: static;
 }
 #attendance #absent li{
     text-decoration: line-through;
@@ -72,4 +75,11 @@ label{
 }
 .image:hover{
     display: none;
+}
+#meeting-content{
+    max-width: 100%;
+    max-height: auto;
+}
+a:active{
+    background-color: yellow;
 }
