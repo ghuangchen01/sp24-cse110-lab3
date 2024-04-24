@@ -1,3 +1,6 @@
+*{
+    border-color: white;
+}
 @font-face {
     font-family: 'Jersey';
     src: url(./Jersey10-Regular.ttf) format('truetype');
@@ -22,7 +25,7 @@ h1{
     }
   }
 h2,h3,summary{
-    color: color-mix(in srgb, black 50%, white 50%);/*color mix*/
+    color: color-mix(yellow 50%,black 50%, white 50%);/*color mix*/
     font-family: 'Jersey';
 }
 main {
@@ -90,7 +93,7 @@ label{
 }
 #meeting-content{
     max-width: 100%;
-    max-height: auto;
+    max-height: 100%;
 }
 a:active{
     background-color: yellow;
