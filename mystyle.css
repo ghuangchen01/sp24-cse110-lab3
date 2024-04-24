@@ -16,6 +16,11 @@ h1{
     border-radius: 10px;
     position: relative;
 }
+@media (max-width: 800px) {
+    h1 {
+      font-size: 24px;
+    }
+  }
 h2,h3,summary{
     color: color-mix(in srgb, black 50%, white 50%);/*color mix*/
     font-family: 'Jersey';
