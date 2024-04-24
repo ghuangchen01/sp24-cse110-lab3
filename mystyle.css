@@ -1,7 +1,13 @@
+@font-face {
+    font-family: 'Jersey';
+    src: url(./Jersey10-Regular.ttf) format('truetype');
+}
 h1{
     color: gray;/*color name*/
     color: #808080;/*fallback*/
     background-color: #0f0c0c;/*hex code*/
+    font-family: 'Jersey';
+    font-size: 50px;
 }
 h1{
     padding: 20px;
@@ -12,6 +18,7 @@ h1{
 }
 h2,h3,summary{
     color: color-mix(in srgb, black 50%, white 50%);/*color mix*/
+    font-family: 'Jersey';
 }
 main {
     color: hsl(206, 0%, 100%);/*hsl*/
@@ -82,4 +89,10 @@ label{
 }
 a:active{
     background-color: yellow;
+}
+footer{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Creates two columns, each taking half of the container's width */
+    grid-template-rows: auto auto; /* Creates rows that automatically adjust to their content's height */
+    gap: 20px;
 }
