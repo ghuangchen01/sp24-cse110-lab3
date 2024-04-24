@@ -25,7 +25,7 @@ h1{
     }
   }
 h2,h3,summary{
-    color: color-mix(yellow 50%,black 50%, white 50%);/*color mix*/
+    color: color-mix(black 50%, white 50%);/*color mix*/
     font-family: 'Jersey';
 }
 main {
@@ -35,7 +35,7 @@ body{
     background-color: rgb(24, 26, 28);/*rgb*/
 }
 label{
-    color: color(display-p3 1 0.5 0);/*widerr-gamut color*/
+    color: color(1 0.5 0);/*widerr-gamut color*/
 }
 #picture {
     text-align: center;
