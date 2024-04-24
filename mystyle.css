@@ -34,7 +34,7 @@ main {
 body{
     background-color: rgb(24, 26, 28);/*rgb*/
 }
-label{
+footer label{
     color: color(display-p3 1 0.5 0);/*widerr-gamut color*/
 }
 #picture {
@@ -54,16 +54,16 @@ label{
     padding-right: 0.5in;
     margin: 1px;
     width: 80vh;
-}
-#Recording .video{
-    margin-top: 1px;
-    margin-bottom: 1px;
-    margin-left: 1px;
-    margin-right: 1px;
-    padding: 10px;
-    width: 50vw;
-    height: auto;
-    position: relative;
+    .video{
+        margin-top: 1px;
+        margin-bottom: 1px;
+        margin-left: 1px;
+        margin-right: 1px;
+        padding: 10px;
+        width: 50vw;
+        height: auto;
+        position: relative;
+    }
 }
 #list{
     width: 100%;
@@ -108,5 +108,17 @@ footer{
     border: 1px solid black;
 }
 ul > li{
-    font-size: 50px;
+    font-size: 20px;
+}
+b + p {
+    font-size: 18px;
+}
+br ~ label{
+    font-size: 18px;
+}
+body .Center{
+    text-align: center;
+}
+h1:has(+ h2){
+    margin-top: 10px;
 }
