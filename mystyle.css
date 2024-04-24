@@ -3,6 +3,10 @@ h1{
     color: #808080;/*fallback*/
     background-color: #0f0c0c;/*hex code*/
 }
+h1{
+    padding: 20px;
+    margin: -10px;
+}
 h2,h3,summary{
     color: color-mix(in srgb, black 50%, white 50%);/*color mix*/
 }
@@ -17,19 +21,17 @@ label{
 }
 #picture {
     text-align: center;
-    padding: 2cm;
-    border-radius: 8mm;
-    margin: auto;
-    width: 80%;
+    padding: 1.5cm;
+    margin: 0px;
 }
 #picture .image {
-    width: 20vmin;
+    width: 20%;
     height: auto;
 }
 #Recording{
     text-align: center;
-    padding-left: 2in;
-    margin-left: 20px;
+    padding: 0.5in;
+    margin-left: 0px;
     width: 80vh;
 }
 #Recording .video{
