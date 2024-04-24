@@ -6,6 +6,8 @@ h1{
 h1{
     padding: 20px;
     margin: -10px;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 h2,h3,summary{
     color: color-mix(in srgb, black 50%, white 50%);/*color mix*/
@@ -30,11 +32,35 @@ label{
 }
 #Recording{
     text-align: center;
-    padding: 0.5in;
-    margin-left: 0px;
+    padding-top: 0.5in;
+    padding-bottom: 0.5in;
+    padding-left: 0.5in;
+    padding-right: 0.5in;
+    margin: 1px;
     width: 80vh;
 }
 #Recording .video{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding: 10px;
     width: 50vw;
     height: auto;
+}
+#list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#attendance b{
+    font-size: 30px;
+}
+#attendance ul{
+    background-color: #464343;
+    width: 40%;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 10px;
 }
